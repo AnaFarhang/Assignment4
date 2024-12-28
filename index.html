@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.28/angular-ui-router.min.js"></script>
+    <script src="app.js"></script> <!-- Load this second -->
+    <script src="routes.js"></script> <!-- Load this first -->
+    <script src="categories.controller.js"></script> <!-- Load this first -->
+    <script src="home.controller.js"></script> <!-- Load this first -->
+    <script src="items.controller.js"></script> <!-- Load this first -->
+    <script src="menudata.service.js"></script> <!-- Load this first -->
+
+</head>
+<body ng-app="MenuApp">
+
+    <div ui-view></div>
+
+</body>
+</html>
